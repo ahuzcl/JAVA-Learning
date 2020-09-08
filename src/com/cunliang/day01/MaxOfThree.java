@@ -1,12 +1,11 @@
 package com.cunliang.day01;
 
+import java.util.Scanner;
+
 public class MaxOfThree {
     public static void main(String[] args) {
 
 
-        int a = 3;
-        int b = 6;
-        int c = 9;
         /*
 
         if (a>b){
@@ -29,12 +28,28 @@ public class MaxOfThree {
 
          */
 
-
+/*
         int max = a>b?a:b;
         if (max>c)
             System.out.println("max = " + max);
         else
             System.out.println("max = "+ c);
+
+
+ */
+
+
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()){
+
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
+            System.out.println("a = "+ a +" b = " + b +" c= " + c );
+
+
+
+        }
 
 
     }
